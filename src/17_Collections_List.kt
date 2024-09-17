@@ -24,13 +24,15 @@ fun main(){
 
     // EXAMPLE 3. Common operations
     // get, size, contains, filter
-    println(list2.get(1))
-    println(list2[2])
-    println(list2.size)
+    println("Elemento 1 de la lista 2: " + list2.get(1))
+    println("Elemento 2 de la lista 2: " + list2[2])
+    println("El tamaño de la lista 2: " +  list2.size)
+    // Cuántos elementos son mayores a 2
     var result = list2.filter { it > 2 }
+    // Cuantos elementos contienen 5
     var resul2 = list2.contains(5)
 
-    println(result)
-    println(resul2)
+    println("Elementos que son mayores a 2: " + result)
+    println("Elementos que contienen 5" + resul2)
 
 }
